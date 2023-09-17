@@ -51,6 +51,8 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+# OpenAI API + Ruby! 🤖❤️ Now multi-tenant ready!
+gem "ruby-openai"
 
 # Simple, efficient background processing for Ruby
 gem "sidekiq"
