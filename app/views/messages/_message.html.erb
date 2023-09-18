@@ -1,0 +1,14 @@
+<div id="<%= dom_id(message) %>_messages">
+  <div class="d-flex align-items-baseline mb-4">
+    <div class="position-relative avatar">
+      <%= image_tag 'cap-black.png' , class: 'img-fluid rounded-circle' %>
+    </div>
+    <div class="pe-2">
+      <div>
+        <div class="card card-text d-inline-block p-2 px-3 m-1">
+          <%= message.content %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

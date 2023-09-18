@@ -1,0 +1,8 @@
+<div class="card-body p-4 mb-5" style="height: 80vh; overflow: auto;">
+  <%= turbo_stream_from "#{dom_id(@chat)}_messages" %>
+  <div id="<%= dom_id(@chat) %>_messages">
+    <%= render @chat.messages %>
+  </div>
+</div>
+
+<%= render partial: "messages/form", locals: { chat: @chat } %>

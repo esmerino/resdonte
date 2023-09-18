@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Restonte</title>
+    <title>Resdontê - Novos sabores com o que restou de ontem</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container mt-4">
+      <div class="card mx-auto" style="max-width:400px">
+        <div class="card-header bg-transparent">
+          <div class="navbar navbar-expand p-0">
+            <ul class="navbar-nav me-auto align-items-center">
+              <li class="nav-item">
+                <a href="#!" class="nav-link">
+                  <div class="position-relative" style="width:50px; height: 50px; border-radius: 50%; border: 1px solid gray; padding: 2px">
+                    <%= image_tag 'cap-black.png' , class: 'img-fluid rounded-circle' %>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">Sr.Resdontê</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

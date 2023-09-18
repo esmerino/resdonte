@@ -1,0 +1,14 @@
+<%= turbo_frame_tag "#{dom_id(chat)}_message_form" do %>
+  <div class="card-footer bg-white position-absolute w-100 bottom-0 m-0 p-1">
+    <%= form_with(model: Message.new, url: [chat, chat.messages.new]) do |form| %>
+      <div class="input-group">
+        <%= form.text_area :content, class: "form-control border-0",  placeholder: "Adicione os incredientes, exemplo: arroz, ovo e carne", autofocus: true %>
+        <div class="input-group-text bg-transparent border-0">
+          <%= form.button type: :submit, class: "btn btn-light text-secondary" do %>
+            <i class="fas fa-paper-plane"></i>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% end %>
