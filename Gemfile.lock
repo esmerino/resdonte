@@ -216,6 +216,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    shoulda-matchers (5.3.0)
+      activesupport (>= 5.2.0)
     sidekiq (7.1.4)
       concurrent-ruby (< 2)
       connection_pool (>= 2.3.0)
@@ -274,6 +276,7 @@ DEPENDENCIES
   rspec-rails
   ruby-openai
   selenium-webdriver
+  shoulda-matchers
   sidekiq
   sprockets-rails
   stimulus-rails
