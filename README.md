@@ -1,6 +1,6 @@
 <h1 align="center" style="border-bottom: none">
   <div>
-    <img  alt="Resdontê" src="https://i.ibb.co/mRsd8Jv/Screenshot-2023-09-18-at-12-47-55.png" width="80" />
+    <img  alt="Resdontê" src="https://i.ibb.co/mRsd8Jv/Screenshot-2023-09-18-at-12-47-55.png"/>
   </div>
 </h1>
 <h3 align="center">
