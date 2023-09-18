@@ -24,6 +24,16 @@ Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f 
 
 # Checks for pending migrations and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove these lines.
+
+VCR.configure do |c|
+  c.hook_into :webmock
+  c.cassette_library_dir = "spec/fixtures/cassettes"
+  c.default_cassette_options = {
+    record: :all,
+    match_requests_on: [:method, :uri, VCRMultipartMatcher.new]
+  }
+end
+
 begin
   ActiveRecord::Migration.maintain_test_schema!
 rescue ActiveRecord::PendingMigrationError => e
