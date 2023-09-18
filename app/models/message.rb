@@ -28,7 +28,7 @@ class Message < ApplicationRecord
     )
   end
 
-  def self.for_openai(messages)
+  def self.load_messages(messages)
     messages.map { |message| { role: message.role, content: message.content } }
   end
 end

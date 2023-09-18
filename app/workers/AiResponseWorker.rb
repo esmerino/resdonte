@@ -15,7 +15,7 @@ class AiResponseWorker
     OpenAI::Client.new.chat(
       parameters: {
         model: "gpt-3.5-turbo",
-        messages: Message.for_openai(chat.messages),
+        messages: Message.load_messages(chat.messages),
         temperature: 0.1,
         stream: stream_proc(message: message)
       }
