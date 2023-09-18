@@ -1,24 +1,35 @@
-# README
+![Resdontê](https://ondigital.tech.sfo3.cdn.digitaloceanspaces.com/Screenshot%202023-09-18%20at%2012.47.55.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Installing
 
-Things you may want to cover:
+Clone the project into a local folder and run the included setup file:
 
-* Ruby version
+```
+git clone https://github.com/esmerino/resdonte.git
+cd resdonte
+./bin/setup
+```
 
-* System dependencies
+### Running locally
 
-* Configuration
+Start your rails server:
 
-* Database creation
+```rails s```
 
-* Database initialization
+Open at:
 
-* How to run the test suite
+```http://localhost:3000```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contributing
 
-* Deployment instructions
+In general, we follow the "fork-and-pull" Git workflow.
 
-* ...
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
