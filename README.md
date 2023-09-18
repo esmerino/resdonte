@@ -1,4 +1,4 @@
-![Resdontê](https://ondigital.tech.sfo3.cdn.digitaloceanspaces.com/Screenshot%202023-09-18%20at%2012.47.55.png)
+![Resdontê](https://i.ibb.co/mRsd8Jv/Screenshot-2023-09-18-at-12-47-55.png)
 
 ### Installing
 
