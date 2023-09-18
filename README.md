@@ -1,6 +1,6 @@
 <h1 align="center" style="border-bottom: none">
   <div>
-    <img  alt="Resdontê" src="https://github.com/esmerino/resdonte/assets/images/screenshot.png"/>
+    <img  alt="Resdontê" src="https://github.com/esmerino/resdonte/blob/main/app/assets/images/screenshot.png"/>
   </div>
 </h1>
 <h3 align="center">
