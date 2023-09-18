@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :message do
-    chat { nil }
-    role { 1 }
-    content { "MyString" }
+    chat { create(:chat) }
+    role { "user" }
+    content { "How long I can run all the world?" }
   end
 end
