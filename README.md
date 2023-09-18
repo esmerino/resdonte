@@ -7,25 +7,24 @@
   Create resdontê or soborô by AI
 </h3>
 
-### Installing
 
-Clone the project into a local folder and run the included setup file:
+## Getting Started
 
-```
-git clone https://github.com/esmerino/resdonte.git
-cd resdonte
-./bin/setup
-```
+1. You must have the following dependencies installed:
 
-### Running locally
+     - Ruby 3
+          - See [`.ruby-version`](.ruby-version) for the specific version.
+     - Node 16 
+          - See [`.nvmrc`](.nvmrc) for the specific version.
+     - PostgreSQL 13
+     - Redis 6.2
+     - [Chrome](https://www.google.com/search?q=chrome) (for headless browser tests)
 
-Start your rails server:
+    If you don't have these installed, you can use [rails.new](https://rails.new) to help with the process.
 
-```rails s```
-
-Open at:
-
-```http://localhost:3000```
+2. Run the `bin/setup` script.
+3. Start the application with `bin/dev`.
+4. Visit http://localhost:3000.
 
 ## Contributing
 
