@@ -12,7 +12,7 @@
 - [x] Integration to OpenAI
 - [x] Get recipes by ingredients
 - [x] Easy views like chat
-- [] Mobile IOS/ANDROID by Flutter with WebViews
+- [ ] Mobile IOS/ANDROID by Flutter with WebViews
 
 ## Getting Started
 
