@@ -32,6 +32,20 @@
 3. Start the application with `bin/dev`.
 4. Visit http://localhost:3000.
 
+## Usage
+
+- Get your API key from [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
+
+### With Config
+
+Set your api key on `openai.rb` initializer file.
+
+```ruby
+OpenAI.configure do |config|
+    config.access_token = Rails.application.credentials.openai.access_token || ENV.fetch("OPENAI_ACCESS_TOKEN")
+end
+```
+
 ## Contributing
 
 In general, we follow the "fork-and-pull" Git workflow.
