@@ -13,6 +13,8 @@
 - [x] Get recipes by ingredients
 - [x] Easy views like chat
 - [ ] Mobile IOS/ANDROID by Flutter with WebViews
+- [ ] Mobile IOS/ANDROID by Strada with WebViews
+- [ ] Deploy by Kamal
 
 ## Getting Started
 
