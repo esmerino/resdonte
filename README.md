@@ -4,7 +4,16 @@
   </div>
 </h1>
 <h3 align="center">
-  Create resdontê or soborô by AI
+  Create resdontê or soborô by AI on Web
+</h3>
+
+<h1 align="center" style="border-bottom: none">
+  <div>
+    <img  alt="Resdontê" src="https://github.com/esmerino/resdonte/blob/main/app/assets/images/ios.gif"/>
+  </div>
+</h1>
+<h3 align="center">
+  Create resdontê or soborô by AI on IOS/ANDROID
 </h3>
 
 ## Features
@@ -12,8 +21,7 @@
 - [x] Integration to OpenAI
 - [x] Get recipes by ingredients
 - [x] Easy views like chat
-- [ ] Mobile IOS/ANDROID by Flutter with WebViews
-- [ ] Mobile IOS/ANDROID by Strada with WebViews
+- [x] Mobile IOS/ANDROID
 - [ ] Deploy by Kamal
 
 ## Getting Started
