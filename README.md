@@ -20,7 +20,7 @@
 - [x] Mobile IOS/ANDROID
 - [ ] Deploy by Kamal
 
-## Getting Started
+## Getting Started Web
 
 1. You must have the following dependencies installed:
 
@@ -37,6 +37,14 @@
 2. Run the `bin/setup` script.
 3. Start the application with `bin/dev`.
 4. Visit http://localhost:3000.
+
+## Getting Started IOS/ANDROID
+
+1. You must have the following dependencies installed:
+     - Flutter
+          - [See](https://docs.flutter.dev/get-started/install)
+
+2. Run the `flutter run`
 
 ## Usage
 
