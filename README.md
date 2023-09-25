@@ -44,6 +44,7 @@
      - Flutter
           - [See](https://docs.flutter.dev/get-started/install)
 
+2. Go to `cd mobile`
 2. Run the `flutter run`
 
 ## Usage
