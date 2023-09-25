@@ -4,7 +4,7 @@
 
 <h1 align="center" style="border-bottom: none">
   <div>
-    <img  alt="Resdontê" src="https://github.com/esmerino/resdonte/blob/main/app/assets/images/ios.gif" width="50%" height="50%"/>
+    <img  alt="Resdontê" src="https://github.com/esmerino/resdonte/blob/main/app/assets/images/screenshot.png"  width="50%" height="50%" />
   </div>
 </h1>
 
