@@ -6,6 +6,10 @@
   <div>
     <img  alt="Resdontê" src="https://github.com/esmerino/resdonte/blob/main/app/assets/images/screenshot.png"  width="50%" height="50%" />
   </div>
+
+  <div>
+    <img  alt="Resdontê" src="https://github.com/esmerino/resdonte/blob/main/app/assets/images/ios.png"  width="50%" height="50%" />
+  </div>
 </h1>
 
 ## Features
