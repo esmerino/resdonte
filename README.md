@@ -57,7 +57,7 @@ Set your api key on `openai.rb` initializer file.
 
 ```ruby
 OpenAI.configure do |config|
-    config.access_token = Rails.application.credentials.openai.access_token || ENV.fetch("OPENAI_ACCESS_TOKEN")
+    config.access_token = ENV.fetch("OPENAI_ACCESS_TOKEN")
 end
 ```
 
