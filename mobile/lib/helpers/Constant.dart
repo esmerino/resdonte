@@ -48,8 +48,8 @@ const bool showSplashScreen = false;
 const bool showOnboardingScreen = false;
 
 //To remove/display header/footer of website
-const bool hideHeader = false;
-const bool hideFooter = false;
+const bool hideHeader = true;
+const bool hideFooter = true;
 
 //Ids for interstitial Ad
 const androidInterstitialAdId = '';
